@@ -1,6 +1,5 @@
 /* =====================================================
-   Francis Wambua Portfolio
-   Style.css — Emerald / Teal Themed Dark–Light Mode
+   Francis Wambua Portfolio Style.css — Emerald/Teal Theme
    ===================================================== */
 
 /* ---------- Root Variables ---------- */
@@ -15,7 +14,6 @@
   --border: rgba(255, 255, 255, 0.06);
   --highlight: #14b8a6;
   --max-width: 1150px;
-
   font-family: "Poppins", "Inter", system-ui, sans-serif;
   scroll-behavior: smooth;
 }
@@ -338,47 +336,3 @@ nav a:hover {
   border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 0.8rem 1rem;
   border-radius: 8px;
-  color: var(--text);
-}
-
-.contact-form .full {
-  grid-column: 1 / -1;
-}
-
-/* ---------- Footer ---------- */
-footer {
-  text-align: center;
-  padding: 2rem 0;
-  color: var(--muted);
-  font-size: 0.85rem;
-  border-top: 1px solid var(--border);
-  margin-top: 1rem;
-  letter-spacing: 0.3px;
-}
-
-/* ---------- Headings ---------- */
-h2 {
-  font-size: 1.6rem;
-  margin-bottom: 1.2rem;
-  color: var(--accent);
-  border-left: 4px solid var(--accent);
-  padding-left: 0.6rem;
-}
-
-h3 {
-  font-size: 1.2rem;
-  color: var(--text);
-  margin-bottom: 0.3rem;
-}
-
-/* ---------- Scrollbar ---------- */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--accent);
-  border-radius: 6px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-light);
-}
